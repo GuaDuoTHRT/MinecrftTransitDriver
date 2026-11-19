@@ -8,5 +8,22 @@
 	"message.mtrdriver.not_stopped": "请先停稳列车",
 	"message.mtrdriver.open": "开",
 	"message.mtrdriver.closed": "关",
-	"message.mtrdriver.status": "车门状态：左 %s / 右 %s"
+	"message.mtrdriver.status": "车门状态：左 %s / 右 %s",
+	"gui.mtrdriver.owner_button": "所有者：%s",
+	"gui.mtrdriver.owner_none": "无",
+	"gui.mtrdriver.owner_none_option": "无所有者",
+	"gui.mtrdriver.owner_cancel": "取消",
+	"gui.mtrdriver.owner_prev": "上一页",
+	"gui.mtrdriver.owner_next": "下一页",
+	"message.mtrdriver.owner.no_permission": "只有管理员（OP）可以设置所有者",
+	"message.mtrdriver.owner.team_not_found": "找不到团队：%s",
+	"message.mtrdriver.owner.updated": "已将所有者设置为：%s",
+	"message.mtrdriver.owner.cleared": "已清除所有者",
+	"message.mtrdriver.owner.server_missing": "服务器未安装 MTR驾驶进阶，无法设置所有者",
+	"message.mtrdriver.owner.station.updated": "已将车站「%s」的所有者设置为团队「%s」",
+	"message.mtrdriver.owner.route.updated": "已将线路「%s」的所有者设置为团队「%s」",
+	"message.mtrdriver.owner.station.cleared": "已清除车站「%s」的所有者",
+	"message.mtrdriver.owner.route.cleared": "已清除线路「%s」的所有者",
+	"message.mtrdriver.team.balance": "团队「%s」每名成员获得 %s MTR 余额（来自 %s 乘坐线路「%s」出站）",
+	"message.mtrdriver.rider.balance": "本次车费 %s 已分配给线路「%s」的所有者团队「%s」"
 }
