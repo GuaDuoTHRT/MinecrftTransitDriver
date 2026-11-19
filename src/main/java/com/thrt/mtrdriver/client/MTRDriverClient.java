@@ -26,6 +26,7 @@ public class MTRDriverClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		leftDoorKey = KeyBindingHelper.registerKeyBinding(new KeyBinding("key.mtrdriver.left_door", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_LEFT, CATEGORY));
 		rightDoorKey = KeyBindingHelper.registerKeyBinding(new KeyBinding("key.mtrdriver.right_door", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT, CATEGORY));
+		OwnersClient.register();
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			final boolean leftPressed = leftDoorKey != null && leftDoorKey.wasPressed();

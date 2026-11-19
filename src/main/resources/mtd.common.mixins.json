@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.thrt.mtrdriver.mixin.server",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"SidingMixin",
+		"TicketSystemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
